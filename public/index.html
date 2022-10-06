@@ -1,27 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Web site created using create-snowpack-app" />
-    <link rel="stylesheet" type="text/css" href="/index.css" />
-    <title>Snowpack App</title>
-  </head>
-  <body>
-    <img id="img" src="/logo.svg" />
-    <canvas id="canvas"></canvas>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <script type="module" src="/dist/index.js"></script>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+  <script type="module" src="/dist/index.js"></script>
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>AppleClone</title>
+  <nav>
+    <div class="nav-div">
+      <ul>
+        <li>
+          <a class="apple-link" href="#">
+          <img class="apple-logo"
+          alt="File:Apple logo grey.svg" 
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/505px-Apple_logo_grey.svg.png?20220821122206" 
+          decoding="async" 
+          width="500" 
+          height="600" 
+          srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/758px-Apple_logo_grey.svg.png?20220821122206 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/1010px-Apple_logo_grey.svg.png?20220821122206 2x" 
+          data-file-width="842" data-file-height="1000">
+        </a>
+        </li>
+        <li><a href="https://www.apple.com/store" target="_blank">Store</a></li>
+        <li><a href="https://www.apple.com/mac/" target="_blank">Mac</a></li>
+        <li><a href="https://www.apple.com/ipad/" target="_blank">iPad</a></li>
+        <li><a href="https://www.apple.com/iphone/" target="_blank">iPhone</a></li>
+        <li><a href="https://www.apple.com/watch/" target="_blank">Watch</a></li>
+        <li><a href="https://www.apple.com/airpods/" target="_blank">AirPods</a></li>
+        <li><a href="https://www.apple.com/tv-home/" target="_blank">TV & Home</a></li>
+        <li><a href="https://www.apple.com/services/" target="_blank">Only on Apple</a></li>
+        <li><a href="https://www.apple.com/shop/accessories/all" target="_blank">Accessories</a></li>
+        <li><a href="https://support.apple.com/" target="_blank">Support</a></li>
+      </ul>
+      <ul class="hidden" display="none">
+        <li>
+          <img class="apple-logo"
+          alt="File:Apple logo grey.svg" 
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/505px-Apple_logo_grey.svg.png?20220821122206" 
+          decoding="async" 
+          width="505" 
+          height="600" 
+          srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/758px-Apple_logo_grey.svg.png?20220821122206 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/1010px-Apple_logo_grey.svg.png?20220821122206 2x" 
+          data-file-width="842" data-file-height="1000">
+        </li>
+      </ul>
+    </div>
+  </nav>
+</head>
+<body>
+  <div class="container">
+    <p class="hero-p">
+      <span class="hero-span">iPhone 14 Pro</span>
+      <span>Pro. Beyond.</span>
+    </p>
+    <div class="whiteLinks">
+      <a href="https://www.apple.com/shop/buy-iphone/iphone-14-pro" target="_blank">Buy</a>
+      <div class="svg-holder">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </div>
+    </div>
+    <div class="img-div"></div>
+  </div>
+  <section class="divider"></section>
+  <section class="first-section">
+    <p class="p-tag">
+      <span class="big-font">iPhone 14</span>
+      <span class="small-font">Big and bigger.</span>
+    </p>
+    <div class="whiteLinks">
+      <a href="https://www.apple.com/shop/buy-iphone/iphone-14" target="_blank">Buy</a>
+      <div class="svg-holder">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="big"></div>
+      <div class="bigger"></div>
+    </div>
+  </section>
+  <section class="divider"></section>
+  <section class="second-section">
+      <div class="holder">
+        <div class="watch-logo">
+          <img class="apple-logo" alt="File:Apple logo black.svg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/488px-Apple_logo_black.svg.png?20220821121934" decoding="async" width="35" height="45" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/732px-Apple_logo_black.svg.png?20220821121934 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/976px-Apple_logo_black.svg.png?20220821121934 2x" data-file-width="814" data-file-height="1000">
+          <span>WATCH</span>
+        </div>
+        <span class="orange">ULTRA</span>
+        <span>Adventure awaits.</span>
+      </div>
+      <div class="whiteLinks">
+        <a href="https://www.apple.com/shop/buy-watch/apple-watch-ultra" target="_blank">Buy</a>
+        <div class="svg-holder">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+      </div>
+      <div class="img"></div>
+  </section>
+  <section class="divider"></section>
+  <section class="third-section">
+    <div class="left">
+      <div class="left-p-tag">
+        <span class="bold">AirPods Pro</span>
+        <span>Rebuilt from the sound up.</span>
+      </div>
+      <div class="darkLinks">
+        <a href="https://www.apple.com/shop/product/MQD83AM/A/airpods-pro" target="_blank">Buy</a>
+        <div class="svg-holder">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+      </div>
+      <div class="left-img"></div>
+    </div>
+    <div class="right">
+      <div class="right-p-tag">
+        <div class="right-watch-logo">
+          <img crossorigin="anonymous" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/320px-Apple_logo_white.svg.png" class="svg mw-mmv-dialog-is-open" width="35" height="40">
+          <span class="bold">WATCH</span>
+        </div>
+        <span class="red">SERIES 8</span>
+        <span>A healthy leap ahead.</span>
+      </div>
+      <div class="darkLinks">
+        <a href="https://www.apple.com/shop/buy-watch/apple-watch" target="_blank">Buy</a>
+        <div class="svg-holder">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+      </div>
+      <div class="right-img"></div>
+    </div>
+  </section>
+  <section class="divider"></section>
+  <section class="fourth-section">
+    <div class="first">
+      <div class="first-p-tag">
+        <div class="first-watch-logo">
+          <img class="apple-logo" alt="File:Apple logo black.svg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/488px-Apple_logo_black.svg.png?20220821121934" decoding="async" width="23" height="30" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/732px-Apple_logo_black.svg.png?20220821121934 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/976px-Apple_logo_black.svg.png?20220821121934 2x" data-file-width="814" data-file-height="1000">
+          <span class="bold">WATCH</span>
+        </div>
+        <span class="red">SE</span>
+        <span>A great deal to love.</span>
+      </div>
+      <div class="whiteLinks">
+        <a href="https://www.apple.com/shop/buy-watch/apple-watch-se" target="_blank">Buy</a>
+        <div class="svg-holder">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+      </div>
+      <div class="first-img"></div>
+    </div>
+    <div class="second">
+        <div class="second-p-tag">
+          <div class="second-watch-logo">
+            <img class="apple-logo" alt="File:Apple logo black.svg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/488px-Apple_logo_black.svg.png?20220821121934" decoding="async" width="23" height="30" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/732px-Apple_logo_black.svg.png?20220821121934 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/976px-Apple_logo_black.svg.png?20220821121934 2x" data-file-width="814" data-file-height="1000">
+            <span class="bold">Fitness+</span>
+          </div>
+          <span>Fitness for everyone.</span>
+          <span>Now all you need is iPhone</span>
+        </div>
+        <div class="whiteLinks">
+          <a href="https://www.apple.com/apple-fitness-plus/" target="_blank">Learn more</a>
+          <div class="svg-holder">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+            </svg>
+          </div>
+        </div>
+        <div class="second-img"></div>
+    </div>
+    <div class="third" href="https://www.apple.com/education-initiative/" target="_blank">
+        <div class="third-p-tags">
+          <p class="bold-tags">
+            <span>Education moves</span>
+            <span>everyone forward.</span>
+          </p>
+          <p class="small-tags">
+            <span>Our partnerships foster access to</span>
+            <span>learning in over 100 countries.</span>
+          </p>
+          <a class="third-learn" href="https://www.apple.com/education-initiative/" target="_blank">Learn more</a>
+        </div>
+    </div>
+    <div class="fourth">
+      <div class="fourth-p-tag">
+        <div class="fourth-watch-logo">
+          <img class="apple-logo" alt="File:Apple logo black.svg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/488px-Apple_logo_black.svg.png?20220821121934" decoding="async" width="23" height="30" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/732px-Apple_logo_black.svg.png?20220821121934 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/976px-Apple_logo_black.svg.png?20220821121934 2x" data-file-width="814" data-file-height="1000">
+          <span class="bold">Card</span>
+        </div>
+        <span>Get up to 3% Daily cash back</span>
+        <span>with every purchase.</span>
+      </div>
+      <div class="whiteLinks">
+        <a href="https://card.apple.com/apply/start?referrer=cid%3Dapy-200-100018" target="_blank">Apple now</a>
+        <div class="svg-holder">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+      </div>
+      <div class="fourth-img"></div>
+    </div>
+  </section>
+</body>
+<footer>
+  <p>This is a apple clone made by</p>
+  <a href="https://www.linkedin.com/in/mohamed-omar-b4846522b/" target="_blank">Mohamed Omar</a>
+</footer>
 </html>

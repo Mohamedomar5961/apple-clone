@@ -1,0 +1,43 @@
+.iphone-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    .title{
+        display: flex;
+        min-width: 100vw;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 15rem;
+        .title-p-tags{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            span{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 1rem;
+                color: rgb(88, 88, 88);
+            }
+            .bold{
+                font-size: 3.5rem;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: rgb(26, 26, 26);
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    .iphone-container{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10rem;
+        border: 1px solid black;
+        min-width: 100vw;
+        min-height: 50rem;
+        .iphone-img{
+            background: url(../img/page-iphone-second.jpg);
+            background-size: cover;
+            min-width: 70vw;
+            min-height: 40rem;
+        }
+    }
+}

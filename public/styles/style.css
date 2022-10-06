@@ -1,0 +1,539 @@
+.iphone-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+.iphone-body .title {
+  display: flex;
+  min-width: 100vw;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 15rem;
+}
+.iphone-body .title .title-p-tags {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.iphone-body .title .title-p-tags span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: rgb(88, 88, 88);
+}
+.iphone-body .title .title-p-tags .bold {
+  font-size: 3.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(26, 26, 26);
+  margin-bottom: 1rem;
+}
+.iphone-body .iphone-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+  border: 1px solid black;
+  min-width: 100vw;
+  min-height: 50rem;
+}
+.iphone-body .iphone-container .iphone-img {
+  background: url(../img/page-iphone-second.jpg);
+  background-size: cover;
+  min-width: 70vw;
+  min-height: 40rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+* img:hover {
+  cursor: pointer;
+}
+* .divider {
+  display: flex;
+  height: 1rem;
+}
+* .darkLinks {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* .darkLinks a {
+  text-decoration: none;
+  color: #2997ff;
+  font-size: 1.1rem;
+}
+* .darkLinks a:hover {
+  text-decoration: underline;
+}
+* .darkLinks .svg-holder {
+  margin-top: 3px;
+}
+* .darkLinks .svg-holder .bi {
+  margin-left: 0.2rem;
+  fill: #2997ff;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+* .whiteLinks {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* .whiteLinks a {
+  text-decoration: none;
+  color: #0066cc;
+  font-size: 1.1rem;
+}
+* .whiteLinks a:hover {
+  text-decoration: underline;
+}
+* .whiteLinks .svg-holder {
+  margin-top: 3px;
+}
+* .whiteLinks .svg-holder .bi {
+  fill: #0066cc;
+  margin-left: 0.2rem;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+* nav {
+  position: fixed;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0 0.5rem 0;
+}
+* nav ul {
+  display: flex;
+}
+* nav ul li {
+  list-style: none;
+  margin: 0 1.4rem 0 1.4rem;
+}
+* nav ul li a {
+  text-decoration: none;
+  color: rgb(209, 209, 209);
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  font-weight: 100;
+}
+* nav .apple-link {
+  display: flex;
+  justify-content: center;
+}
+* nav .apple-logo {
+  max-width: 0.9rem;
+  max-height: 1.1rem;
+}
+* nav .search-logo {
+  max-width: 1rem;
+  max-height: 1.3rem;
+}
+* nav .hidden {
+  display: none;
+}
+@media screen and (max-width: 1100px) {
+  * nav ul {
+    display: none;
+  }
+  * nav .hidden {
+    display: flex;
+  }
+}
+* span {
+  font-family: "Roboto", sans-serif;
+}
+* .container {
+  display: flex;
+  align-items: center;
+  min-height: 40rem;
+  background-color: black;
+  padding-top: 6rem;
+  flex-direction: column;
+}
+* .container:hover {
+  cursor: pointer;
+}
+* .container .hero-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 1rem;
+}
+* .container .hero-p span {
+  font-size: 1.7rem;
+  font-family: "Roboto", sans-serif;
+}
+* .container .hero-p .hero-span {
+  font-size: 3.5rem;
+  font-family: "Roboto", sans-serif;
+}
+* .container .img-div {
+  background: url(../img/hero.jpg);
+  min-height: 30rem;
+  min-width: 55rem;
+  background-size: cover;
+}
+@media screen and (max-width: 1100px) {
+  * .container {
+    min-height: 25rem;
+  }
+  * .container .hero-p span {
+    font-size: 1rem;
+  }
+  * .container .hero-p .hero-span {
+    font-size: 2.7rem;
+  }
+  * .container .img-div {
+    background: url(../img/hero.jpg);
+    min-height: 20rem;
+    min-width: 40rem;
+    background-size: cover;
+  }
+}
+@media all and (max-width: 700px) {
+  * .container {
+    min-height: 20rem;
+  }
+  * .container .hero-p span {
+    font-size: 0.8rem;
+  }
+  * .container .hero-p .hero-span {
+    font-size: 2.5rem;
+  }
+  * .container .img-div {
+    background: url(../img/hero.jpg);
+    min-height: 15rem;
+    min-width: 30rem;
+    background-size: cover;
+  }
+}
+* .first-section {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3.3rem;
+}
+* .first-section:hover {
+  cursor: pointer;
+}
+* .first-section .p-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+* .first-section .p-tag span {
+  font-family: "Roboto", sans-serif;
+}
+* .first-section .p-tag .big-font {
+  font-size: 3.5rem;
+  color: rgba(17, 17, 17, 0.933);
+}
+* .first-section .p-tag .small-font {
+  font-size: 1.7rem;
+  color: rgba(28, 28, 28, 0.933);
+}
+* .first-section .img-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+* .first-section .img-container .big {
+  background: url(../img/big.jpg);
+  background-size: cover;
+  min-height: 27rem;
+  min-width: 27rem;
+}
+* .first-section .img-container .bigger {
+  background: url(../img/bigger.jpg);
+  background-size: cover;
+  min-height: 27rem;
+  min-width: 27rem;
+}
+* .second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+}
+* .second-section:hover {
+  cursor: pointer;
+}
+* .second-section .holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+* .second-section .holder span {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7rem;
+}
+* .second-section .holder .watch-logo {
+  display: flex;
+}
+* .second-section .holder .watch-logo span {
+  font-size: 2.9rem;
+  font-weight: bolder;
+}
+* .second-section .holder .orange {
+  color: rgb(170, 123, 35);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+* .second-section .img {
+  margin-top: 3rem;
+  background: url(../img/watch.jpg);
+  background-size: cover;
+  min-width: 85rem;
+  min-height: 25rem;
+}
+@media screen and (max-width: 1100px) {
+  * .second-section .img {
+    background: url(../img/watch.jpg);
+    background-size: cover;
+    min-width: 60rem;
+    min-height: 20rem;
+  }
+}
+@media all and (max-width: 700px) {
+  * .second-section .img {
+    background: url(../img/watch.jpg);
+    background-size: cover;
+    min-width: 30rem;
+    min-height: 10rem;
+  }
+}
+* .third-section {
+  display: flex;
+  justify-content: center;
+}
+* .third-section .left, * .third-section .right {
+  min-width: 48.5vw;
+  min-height: 30rem;
+  background-color: black;
+  margin: 0.4rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* .third-section .left:hover, * .third-section .right:hover {
+  cursor: pointer;
+}
+* .third-section .left span, * .third-section .right span {
+  color: white;
+  font-size: 1.2rem;
+}
+* .third-section .left-p-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+* .third-section .left-p-tag .bold {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+* .third-section .left-img {
+  margin-top: 3rem;
+  background: url(../img/airpods.jpg);
+  background-size: cover;
+  min-width: 27rem;
+  min-height: 22rem;
+}
+* .third-section .right-p-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+* .third-section .right-p-tag .right-watch-logo .bold {
+  font-size: 2.5rem;
+}
+* .third-section .right-p-tag .red {
+  color: rgb(192, 0, 0);
+  margin-bottom: 1rem;
+}
+* .third-section .right-img {
+  margin-top: 3rem;
+  background: url(../img/right-watch.jpg);
+  background-size: cover;
+  min-width: 30rem;
+  min-height: 20rem;
+}
+@media screen and (max-width: 1100px) {
+  * .third-section .right-img {
+    background: url(../img/right-watch.jpg);
+    background-size: cover;
+    min-width: 20rem;
+    min-height: 13rem;
+  }
+  * .third-section .left-img {
+    background: url(../img/airpods.jpg);
+    background-size: cover;
+    min-width: 20rem;
+    min-height: 15rem;
+  }
+  * .third-section .left, * .third-section .right {
+    min-height: 23rem;
+  }
+}
+@media all and (max-width: 700px) {
+  * .third-section {
+    flex-direction: column;
+  }
+}
+* .fourth-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+* .fourth-section .first, * .fourth-section .second, * .fourth-section .third, * .fourth-section .fourth {
+  min-width: 48.5vw;
+  min-height: 35rem;
+  margin: 0.4rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* .fourth-section .first:hover, * .fourth-section .second:hover, * .fourth-section .third:hover, * .fourth-section .fourth:hover {
+  cursor: pointer;
+}
+* .fourth-section .first span, * .fourth-section .second span, * .fourth-section .third span, * .fourth-section .fourth span {
+  color: rgb(95, 95, 95);
+  font-size: 1.2rem;
+}
+* .fourth-section .first .first-p-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+* .fourth-section .first .first-p-tag .first-watch-logo .bold {
+  color: black;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+* .fourth-section .first .first-p-tag .red {
+  color: rgb(192, 0, 0);
+  margin-bottom: 0.6rem;
+}
+* .fourth-section .first .first-img {
+  background: url(../img/sect-4-watchs.jpg);
+  background-size: cover;
+  min-width: 30rem;
+  min-height: 27rem;
+}
+* .fourth-section .second .second-p-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+* .fourth-section .second .second-p-tag .second-watch-logo {
+  margin-bottom: 0.5rem;
+}
+* .fourth-section .second .second-p-tag .second-watch-logo .bold {
+  color: black;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+* .fourth-section .second .second-img {
+  background: url(../img/sect-4-fitness.jpeg);
+  background-size: cover;
+  min-width: 45rem;
+  min-height: 24rem;
+}
+* .fourth-section .third {
+  background: url(../img/sect-3-education.jpg);
+  background-size: cover;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* .fourth-section .third span {
+  color: white;
+}
+* .fourth-section .third .third-p-tags, * .fourth-section .third p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* .fourth-section .third .third-p-tags .bold-tags span, * .fourth-section .third p .bold-tags span {
+  font-size: 2.5rem;
+}
+* .fourth-section .third .third-p-tags .small-tags, * .fourth-section .third p .small-tags {
+  margin-bottom: 1rem;
+}
+* .fourth-section .third .third-p-tags .small-tags span, * .fourth-section .third p .small-tags span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+* .fourth-section .third .third-p-tags a, * .fourth-section .third p a {
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+* .fourth-section .third .third-p-tags a:hover, * .fourth-section .third p a:hover {
+  text-decoration: underline;
+}
+* .fourth-section .fourth .fourth-p-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+* .fourth-section .fourth .fourth-p-tag .fourth-watch-logo {
+  margin-bottom: 0.5rem;
+}
+* .fourth-section .fourth .fourth-p-tag .fourth-watch-logo .bold {
+  color: black;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+* .fourth-section .fourth .fourth-img {
+  margin-top: 4rem;
+  background: url(../img/sect-4-card.jpeg);
+  background-size: cover;
+  min-width: 25rem;
+  min-height: 20rem;
+}
+* footer {
+  background-color: rgb(25, 25, 25);
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* footer p, * footer a {
+  font-size: 0.8rem;
+  color: white;
+}
+* footer a {
+  text-decoration: none;
+  color: white;
+}
+* footer a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
